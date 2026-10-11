@@ -1,0 +1,29 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Defense for source archives; .gitignore and the clean main history govern pushes.
+/baselines export-ignore
+/aux_baselines export-ignore
+/jumpteaching export-ignore
+/methods export-ignore
+/train_aux_baseline.py export-ignore
+/scripts/run_baselines.py export-ignore
+/scripts/run_lp_baselines.py export-ignore
+/scripts/run_jumpteaching.py export-ignore
+/scripts/extract_lp_features.py export-ignore
+/configs/baselines.yaml export-ignore
+/configs/multiview_baselines.yaml export-ignore
+/docs/BASELINES.md export-ignore
+/docs/LOCAL_WORKSPACE.md export-ignore
+/utils/feature_cache.py export-ignore
+/utils/feature_extractor.py export-ignore
+/vendor/LICENSE export-ignore

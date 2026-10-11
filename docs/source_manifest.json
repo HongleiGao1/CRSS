@@ -1,0 +1,392 @@
+{
+  "source_commit": "ab0e94e9d55203cb21ee2bc2d5ed81e0a39708d5",
+  "description": "Public CRSS production modules and required shared data/model utilities. Local comparison implementations are excluded from this manifest and Git publication.",
+  "files": [
+    {
+      "source": "crss/config.py",
+      "release": "crss/config.py",
+      "source_sha256": "af3f058b98f82dce36bc14c328b86f28f0233f917b325027156849088c4a0bc9",
+      "release_sha256": "af3f058b98f82dce36bc14c328b86f28f0233f917b325027156849088c4a0bc9",
+      "release_modified": false
+    },
+    {
+      "source": "crss/consensus.py",
+      "release": "crss/consensus.py",
+      "source_sha256": "b0fea1284c64e679b28fb2b83a0045a111d6de9cfd7c4bc0340126e378ca670c",
+      "release_sha256": "b0fea1284c64e679b28fb2b83a0045a111d6de9cfd7c4bc0340126e378ca670c",
+      "release_modified": false
+    },
+    {
+      "source": "crss/diagnostics.py",
+      "release": "crss/diagnostics.py",
+      "source_sha256": "56d30d228823f03674c35d23e98fbbebbaa01fd9ac0b80821ef15190bb11d31f",
+      "release_sha256": "56d30d228823f03674c35d23e98fbbebbaa01fd9ac0b80821ef15190bb11d31f",
+      "release_modified": false
+    },
+    {
+      "source": "crss/io.py",
+      "release": "crss/io.py",
+      "source_sha256": "f7c483ad32b4a8d1065f9abb1567079245ac03b6044df3a47acf833d398dd0d0",
+      "release_sha256": "f7c483ad32b4a8d1065f9abb1567079245ac03b6044df3a47acf833d398dd0d0",
+      "release_modified": false
+    },
+    {
+      "source": "crss/pipeline.py",
+      "release": "crss/pipeline.py",
+      "source_sha256": "9cece0983bb4a5db23a37102b2da4dc89c398e4402b637df755698f8da4197a2",
+      "release_sha256": "9cece0983bb4a5db23a37102b2da4dc89c398e4402b637df755698f8da4197a2",
+      "release_modified": false
+    },
+    {
+      "source": "crss/prototypes.py",
+      "release": "crss/prototypes.py",
+      "source_sha256": "b6aad6787a1f343a2790ca56a8cf55190788d82aca5991af028420c330b6a212",
+      "release_sha256": "b6aad6787a1f343a2790ca56a8cf55190788d82aca5991af028420c330b6a212",
+      "release_modified": false
+    },
+    {
+      "source": "crss/reliability.py",
+      "release": "crss/reliability.py",
+      "source_sha256": "d58640a39a326dd9f10b55d923bdbaee309b9c3d8e552fcad263f41a1eed713d",
+      "release_sha256": "d58640a39a326dd9f10b55d923bdbaee309b9c3d8e552fcad263f41a1eed713d",
+      "release_modified": false
+    },
+    {
+      "source": "crss/rvc.py",
+      "release": "crss/rvc.py",
+      "source_sha256": "d7070ed32863450b256848718ae88198f60ce75d3629fa5c9264a8902b0e03b4",
+      "release_sha256": "d7070ed32863450b256848718ae88198f60ce75d3629fa5c9264a8902b0e03b4",
+      "release_modified": false
+    },
+    {
+      "source": "crss/stratification.py",
+      "release": "crss/stratification.py",
+      "source_sha256": "6248163c998b2de9af185e780618f110f8ef2f72f9eaea052b44ec9a0d9ea899",
+      "release_sha256": "32651803d40ce3892b3dbbcdfeb1fa92a898d8fe7005e6b45a2e088e25dfb97e",
+      "release_modified": true
+    },
+    {
+      "source": "crss/types.py",
+      "release": "crss/types.py",
+      "source_sha256": "d9f1621ca38f08cd52c89e8541ddfd847d07da6b9f72175aec8505b24f3dbf32",
+      "release_sha256": "73bd541dfac728f01bc6efae7a70b03cda00e6784cf4115b250335fdcd00143f",
+      "release_modified": true
+    },
+    {
+      "source": "crss/__init__.py",
+      "release": "crss/__init__.py",
+      "source_sha256": "ed7b1e00fda7017128b3e6f93ce041fb53606301260f8e2d4ad12e22d9204ecb",
+      "release_sha256": "ed7b1e00fda7017128b3e6f93ce041fb53606301260f8e2d4ad12e22d9204ecb",
+      "release_modified": false
+    },
+    {
+      "source": "crss_two_stage/artifacts.py",
+      "release": "crss_two_stage/artifacts.py",
+      "source_sha256": "a3213c22987071de9c1697a9d0933ce641cd067e443e40b380729e54f3d126ce",
+      "release_sha256": "eca34e60dd4500b923f1b24591458714aad078d113e41e2a7d325b34e665ac63",
+      "release_modified": true
+    },
+    {
+      "source": "crss_two_stage/config.py",
+      "release": "crss_two_stage/config.py",
+      "source_sha256": "4e91de6eb01498c9807260db9fc3b1e52695067bc3c9bdaf45176a943ff1cfba",
+      "release_sha256": "d451c875dc13e4a9a67964015bfb76cbe98d8c3a67cc1a8b4715b8c543078ecc",
+      "release_modified": true
+    },
+    {
+      "source": "crss_two_stage/training.py",
+      "release": "crss_two_stage/training.py",
+      "source_sha256": "e5e554d7293fd1b55e3842effacdbd273fd9de2239b61655486fc89807c71002",
+      "release_sha256": "5c0529a7f8a752c5af70dc3b75414f78c953cf9f99447c77e52728e9457bd451",
+      "release_modified": true
+    },
+    {
+      "source": "crss_two_stage/__init__.py",
+      "release": "crss_two_stage/__init__.py",
+      "source_sha256": "69fddc099f4531319205c08d87cf64bd24432d115c10192fc82f2623c2815ea5",
+      "release_sha256": "678c5a2407d9a886ad1a630746e218496b4afddfef61a5359e3756ecf957a379",
+      "release_modified": true
+    },
+    {
+      "source": "features/cache.py",
+      "release": "features/cache.py",
+      "source_sha256": "845d185b9d25df1be6d54947ce2a454d1d7e2536da0180a76af1a4703240f6d5",
+      "release_sha256": "845d185b9d25df1be6d54947ce2a454d1d7e2536da0180a76af1a4703240f6d5",
+      "release_modified": false
+    },
+    {
+      "source": "features/extract.py",
+      "release": "features/extract.py",
+      "source_sha256": "34aa4520e242016e82646e7a8251d186766e5c79771009ff0900cd1096acbf77",
+      "release_sha256": "34aa4520e242016e82646e7a8251d186766e5c79771009ff0900cd1096acbf77",
+      "release_modified": false
+    },
+    {
+      "source": "features/__init__.py",
+      "release": "features/__init__.py",
+      "source_sha256": "639a7fa53ae1aa100e558887372fe5c3e390bad45fb8fb46886afb0bdfe4f66d",
+      "release_sha256": "639a7fa53ae1aa100e558887372fe5c3e390bad45fb8fb46886afb0bdfe4f66d",
+      "release_modified": false
+    },
+    {
+      "source": "models/build_model.py",
+      "release": "models/build_model.py",
+      "source_sha256": "0802cc209f384ccedbbf38ba4bdbc780edfbf41f74a4ef843a952d9edbfcf288",
+      "release_sha256": "0802cc209f384ccedbbf38ba4bdbc780edfbf41f74a4ef843a952d9edbfcf288",
+      "release_modified": false
+    },
+    {
+      "source": "models/model_registry.py",
+      "release": "models/model_registry.py",
+      "source_sha256": "34a3f204e0b20f21450a9fed567f419abf169de1e34e2ef90b30b9bf4b6c1f5f",
+      "release_sha256": "34a3f204e0b20f21450a9fed567f419abf169de1e34e2ef90b30b9bf4b6c1f5f",
+      "release_modified": false
+    },
+    {
+      "source": "models/timm_candidate.py",
+      "release": "models/timm_candidate.py",
+      "source_sha256": "9ee34b7b6b7460676a58ff286e6572db16cad7f2f839650d6d50439d61f2c063",
+      "release_sha256": "9ee34b7b6b7460676a58ff286e6572db16cad7f2f839650d6d50439d61f2c063",
+      "release_modified": false
+    },
+    {
+      "source": "models/__init__.py",
+      "release": "models/__init__.py",
+      "source_sha256": "86d7dd982f0102fdedbb186d904843212c33c38ccccaaa4a140b757f548f58d0",
+      "release_sha256": "86d7dd982f0102fdedbb186d904843212c33c38ccccaaa4a140b757f548f58d0",
+      "release_modified": false
+    },
+    {
+      "source": "datasets/build_dataset.py",
+      "release": "datasets/build_dataset.py",
+      "source_sha256": "2f760354a83f8e5a04d872073c0ff86800306be155927052e7205f665f94d5e3",
+      "release_sha256": "f8da3e58627415a3585c8e340eb4e27758dd61a0692f63111809910214c53733",
+      "release_modified": true
+    },
+    {
+      "source": "datasets/noise.py",
+      "release": "datasets/noise.py",
+      "source_sha256": "8defd670e933552860cfea4f277026f33ba80767194386801fed747a7e761512",
+      "release_sha256": "8defd670e933552860cfea4f277026f33ba80767194386801fed747a7e761512",
+      "release_modified": false
+    },
+    {
+      "source": "datasets/stage12_noise.py",
+      "release": "datasets/stage12_noise.py",
+      "source_sha256": "c17f07ef432d343a0295b47c51ca5bf1b71adfa30eff01fd5a6abca285ee8a7c",
+      "release_sha256": "d7df63679575a57ad798344edfe8498ff94f60133d59b740a9648566d40b4a8e",
+      "release_modified": true
+    },
+    {
+      "source": "datasets/__init__.py",
+      "release": "datasets/__init__.py",
+      "source_sha256": "e692c8f3fbaaf4562507a4b4bbc0e826b93276cd189b488c5a890cdfbb6bafd1",
+      "release_sha256": "e692c8f3fbaaf4562507a4b4bbc0e826b93276cd189b488c5a890cdfbb6bafd1",
+      "release_modified": false
+    },
+    {
+      "source": "utils/calibration.py",
+      "release": "utils/metrics.py",
+      "source_sha256": "ea9c7039048d8a93c672f404222183de575e8669dcefdfb52a2dd1c52a1dce0a",
+      "release_sha256": "9e16ef14ed41716569e5cbec0cf91919ffa52ee5896619df36b3365fadf81257",
+      "release_modified": true
+    },
+    {
+      "source": "utils/config.py",
+      "release": "utils/config.py",
+      "source_sha256": "16cfadebd198a5b40b7ebed55db856f76de07d72afad15a09425f9f91fa78ae1",
+      "release_sha256": "c2530677c14a07c1dceebd97caa480c449c0fb05cca1594f2c3eff74bba822c9",
+      "release_modified": true
+    },
+    {
+      "source": "utils/evaluation.py",
+      "release": "utils/evaluation.py",
+      "source_sha256": "e1dca5543c99ff397534f0d2466c27a6241bf5082987acab745e290d5a301674",
+      "release_sha256": "e1dca5543c99ff397534f0d2466c27a6241bf5082987acab745e290d5a301674",
+      "release_modified": false
+    },
+    {
+      "source": "utils/io.py",
+      "release": "utils/io.py",
+      "source_sha256": "a4d05ffeec0b6d581a1f6b9ad2ab722f4f1f5dd63e41047ff37fd1e35be19886",
+      "release_sha256": "a4d05ffeec0b6d581a1f6b9ad2ab722f4f1f5dd63e41047ff37fd1e35be19886",
+      "release_modified": false
+    },
+    {
+      "source": "utils/logger.py",
+      "release": "utils/logger.py",
+      "source_sha256": "dcc6c8a41a95e60bb9fa6cef7259bc0f5ef155218e98e5b9d74068f35a6392a9",
+      "release_sha256": "dcc6c8a41a95e60bb9fa6cef7259bc0f5ef155218e98e5b9d74068f35a6392a9",
+      "release_modified": false
+    },
+    {
+      "source": "utils/reference.py",
+      "release": "utils/reference.py",
+      "source_sha256": "44bdd51694f149b4f3d284ffd982d7dc7551a13b5d0e53400a4ec6d83247bda4",
+      "release_sha256": "15f16fdec22618172ce17f9b44f95d3b073e29871e72023266530d5585b434db",
+      "release_modified": true
+    },
+    {
+      "source": "utils/run.py",
+      "release": "utils/run.py",
+      "source_sha256": "647cd45fd7e0aee6060e330067a40135d70c08773b307f16ba7a94e3c0f946ba",
+      "release_sha256": "5d9eccd093936687f3eb72e8127de90b91e8b274cddba58b1ba49c6964c8f66a",
+      "release_modified": true
+    },
+    {
+      "source": "utils/__init__.py",
+      "release": "utils/__init__.py",
+      "source_sha256": "7cfb5abab5efaa94fe1f56fc4beb440956aef70204a63a83b6c974105477c8fa",
+      "release_sha256": "7cfb5abab5efaa94fe1f56fc4beb440956aef70204a63a83b6c974105477c8fa",
+      "release_modified": false
+    },
+    {
+      "source": "scripts/run_crss.py",
+      "release": "scripts/run_crss.py",
+      "source_sha256": "fa1c76ad58bea2c44663ac77012d0637b88b29934af1d83570f1761f46f4158e",
+      "release_sha256": "fa1c76ad58bea2c44663ac77012d0637b88b29934af1d83570f1761f46f4158e",
+      "release_modified": false
+    },
+    {
+      "source": "run_extract.py",
+      "release": "run_extract.py",
+      "source_sha256": "1b87fda8e08157b2e9a6f137d5c2869af1b21c645e58ce67598a90bb94d057af",
+      "release_sha256": "1b87fda8e08157b2e9a6f137d5c2869af1b21c645e58ce67598a90bb94d057af",
+      "release_modified": false
+    },
+    {
+      "source": "configs/default.yaml",
+      "release": "configs/default.yaml",
+      "source_sha256": "2b6bd33b9e837b9666c404d5b1fc98ac425d7435a18be28bc100ee13b02bc411",
+      "release_sha256": "95dfa8f01737e85de27e81877c80eef2cd53071a680f2bce2827c96c6c72ffd5",
+      "release_modified": true
+    },
+    {
+      "source": "configs/server.yaml",
+      "release": "configs/server.yaml",
+      "source_sha256": "d880f2893cf5a92828ac8da2f106c329a03ce40300dab0333a103886a3a8835d",
+      "release_sha256": "4896b59d3228431172645c966538b725beafad27cac2feba395ad0bde2eff343",
+      "release_modified": true
+    },
+    {
+      "source": "configs/crss_two_stage.yaml",
+      "release": "configs/crss_two_stage.yaml",
+      "source_sha256": "3348a82370ad20b587ab8889ce93de4b3cc4b077804db720d8af20cb366638f2",
+      "release_sha256": "3348a82370ad20b587ab8889ce93de4b3cc4b077804db720d8af20cb366638f2",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/provenance.json",
+      "release": "vendor/provenance.json",
+      "source_sha256": "86861fc661e3af6d1cf208ae06a3e1ebc2307eae2ec29a0521b31c4a178261ec",
+      "release_sha256": "0ad13faedb6ccbb9441e01506d5ccd3bae28857d132e6a969953525a95f06003",
+      "release_modified": true
+    },
+    {
+      "source": "vendor/lnl_foundation/features.py",
+      "release": "vendor/lnl_foundation/features.py",
+      "source_sha256": "469ac2b938c29d85544939a2901ceb7971cc86e0cff3cb889480ed506aa7c874",
+      "release_sha256": "469ac2b938c29d85544939a2901ceb7971cc86e0cff3cb889480ed506aa7c874",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/utils.py",
+      "release": "vendor/lnl_foundation/utils.py",
+      "source_sha256": "64cc849cdb97ac796db095243057ce6ce20b28a291c63136e00f1e17bce088d4",
+      "release_sha256": "64cc849cdb97ac796db095243057ce6ce20b28a291c63136e00f1e17bce088d4",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/__init__.py",
+      "release": "vendor/lnl_foundation/__init__.py",
+      "source_sha256": "3c2e15515c7412dfa3c4d17358e6a71d0764698814ba408c79c8a31f506cef41",
+      "release_sha256": "3c2e15515c7412dfa3c4d17358e6a71d0764698814ba408c79c8a31f506cef41",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/backbones/frozen.py",
+      "release": "vendor/lnl_foundation/backbones/frozen.py",
+      "source_sha256": "d63d504ee339d1f44ee46d61b92bc22a686cb0df1c677e4d59e1e0ca8c7b45f7",
+      "release_sha256": "d63d504ee339d1f44ee46d61b92bc22a686cb0df1c677e4d59e1e0ca8c7b45f7",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/backbones/__init__.py",
+      "release": "vendor/lnl_foundation/backbones/__init__.py",
+      "source_sha256": "33972b180c849415cad887918904968bf5c7df5a77317d4a4ce41028db26c0e4",
+      "release_sha256": "33972b180c849415cad887918904968bf5c7df5a77317d4a4ce41028db26c0e4",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/data/datasets.py",
+      "release": "vendor/lnl_foundation/data/datasets.py",
+      "source_sha256": "9698bd20155a4807d44c4f7a9857505de7cff9df402aeb2ba244654f606cd7f2",
+      "release_sha256": "9698bd20155a4807d44c4f7a9857505de7cff9df402aeb2ba244654f606cd7f2",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/data/noise.py",
+      "release": "vendor/lnl_foundation/data/noise.py",
+      "source_sha256": "a41985ad7814c7bbb85f51d62e71d31b5f9c92d3ed1577f6f7e907c9c67ca917",
+      "release_sha256": "a41985ad7814c7bbb85f51d62e71d31b5f9c92d3ed1577f6f7e907c9c67ca917",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/data/real_noise.py",
+      "release": "vendor/lnl_foundation/data/real_noise.py",
+      "source_sha256": "a707a9242ca44f17979316d46d09e452954769e20f1e1b00a8e76178a262dcb7",
+      "release_sha256": "a707a9242ca44f17979316d46d09e452954769e20f1e1b00a8e76178a262dcb7",
+      "release_modified": false
+    },
+    {
+      "source": "vendor/lnl_foundation/data/__init__.py",
+      "release": "vendor/lnl_foundation/data/__init__.py",
+      "source_sha256": "fa39b9adb6f2a1c00de118e1d2c5c155888523b9af9fd23f9b9388228993fcdc",
+      "release_sha256": "fa39b9adb6f2a1c00de118e1d2c5c155888523b9af9fd23f9b9388228993fcdc",
+      "release_modified": false
+    },
+    {
+      "source": "protocols/fm_srm_stage12_audit.json",
+      "release": "protocols/fm_srm_stage12_audit.json",
+      "source_sha256": "288dc35c5933ceaa07b18f369d830b4dd382d77699b135606923865dbc919e30",
+      "release_sha256": "fc8f317314cae014d849b270b9018fe12e478b2d4b5255bd4c66025040352211",
+      "release_modified": true
+    }
+  ],
+  "extracted_shared_modules": [
+    {
+      "release": "training/linear.py",
+      "sources": [
+        "crss_stage23/core.py"
+      ],
+      "source_sha256": {
+        "crss_stage23/core.py": "2fd76e83cdbfba42b9647609884a221b1bc2adc30a9e5df1ee47ccf328e637e9"
+      },
+      "release_sha256": "1cb2c92f5d7d626c88d213639f318fcc5ea1dd6da5c4d18e21a353ff3a98886f"
+    },
+    {
+      "release": "training/device.py",
+      "sources": [
+        "stage23/core.py"
+      ],
+      "source_sha256": {
+        "stage23/core.py": "b292cedb189e2435f4620ff821414c9f76ca3b1435570952a109f6965aa0a21d"
+      },
+      "release_sha256": "1dd9ce2b8c8a407a43d1b60895f7b6ad8242e74daff7c799f4e6f09b3e309ee9"
+    },
+    {
+      "release": "datasets/cached_inputs.py",
+      "sources": [
+        "scripts/run_crss_stage1.py",
+        "stage23/io.py"
+      ],
+      "source_sha256": {
+        "scripts/run_crss_stage1.py": "d5a6254b2e838dae05b68494a71b49417e9795d4e5ab2d994b82761ce0ee6728",
+        "stage23/io.py": "bb93b7fe0924a184e58f94ba8e02537be50b09722aa5328a4178f8165339d682"
+      },
+      "release_sha256": "963426c475f06e63890037f3a070c1bab29bfa26700d62f973098576aa82dd29"
+    }
+  ],
+  "hash_definition": "SHA256 of file bytes; release source files use LF line endings. Source revision is supplemented by hashes from the current source working tree.",
+  "publication_scope": "CRSS feature extraction, Stage I supervision stratification and Stage II robust linear training only."
+}

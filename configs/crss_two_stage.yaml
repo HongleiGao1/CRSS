@@ -1,0 +1,17 @@
+method_version: crss-two-stage-v1
+rho: 0.6
+tau: 0.1
+target_expert: vit
+q_gce: 0.7
+lr: 0.001
+weight_decay: 0.0001
+batch_size: 256
+max_epochs: 100
+patience: 20
+training_seed: 0
+feature_config: configs/server.yaml
+data_root: ../DATASETS/
+cache_root: cache
+noise_cache_root: cache/noise/stage12
+stage1_root: outputs/crss_stage1
+output_root: outputs/crss_stage2

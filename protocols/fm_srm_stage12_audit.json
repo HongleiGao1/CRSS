@@ -1,0 +1,42 @@
+{
+  "reference": "Learning with noisy labels in foundation model settings via sample reliability modeling",
+  "audited_reference": "FM-SRM source snapshot bundled under vendor/",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "files": {
+    "lnl_foundation/data/noise.py": {
+      "sha256_lf": "a41985ad7814c7bbb85f51d62e71d31b5f9c92d3ed1577f6f7e907c9c67ca917"
+    },
+    "lnl_foundation/data/datasets.py": {
+      "sha256_lf": "9698bd20155a4807d44c4f7a9857505de7cff9df402aeb2ba244654f606cd7f2"
+    },
+    "lnl_foundation/utils.py": {
+      "sha256_lf": "64cc849cdb97ac796db095243057ce6ce20b28a291c63136e00f1e17bce088d4"
+    },
+    "lnl_foundation/features.py": {
+      "sha256_lf": "469ac2b938c29d85544939a2901ceb7971cc86e0cff3cb889480ed506aa7c874"
+    },
+    "configs/default.yaml": {
+      "sha256_lf": "ca4d987157595304c6b4dda17175749cbba013a9c91c4800f69a114e1b60f08d"
+    },
+    "scripts/run_partition_generalization.py": {
+      "sha256_lf": "c2d579016de5de614ce5f19d5461cd4ebf66be88dc66e91cdf29bf3e7a68b012"
+    }
+  },
+  "findings": {
+    "datasets": "torchvision CIFAR10/CIFAR100 train=True; targets int64; native train order",
+    "human": "CIFAR-10_human.pt worse_label; CIFAR-100_human.pt noisy_label; clean_label order equality required",
+    "sym": "off-diagonal .6/(C-1), diagonal .4; per-row np.random.choice after set_seed(seed)",
+    "pair": "cyclic c -> (c+1)%C with probability .3; diagonal .7; per-row np.random.choice",
+    "idn": "original JYP matrix IDN; raw 32x32 images; ToTensor + CIFAR10 mean/std for BOTH datasets; truncnorm tau=.4 std=.1; NumPy normal Cx3072xC weights; torch softmax; per-row np.random.choice",
+    "seed": "reference configs/default.yaml explicitly seeds [1,2,3,4,5]; set_seed resets Python/NumPy/Torch/CUDA",
+    "storage": "run_partition_generalization.py outputs partition.csv index/noisy_label; metrics.json records noise_name/seed/device; no synthetic label archives found in audited checkout",
+    "ordering": "features.py DataLoader shuffle=False; ordered indices=arange(N)",
+    "alignment_limit": "generator implementation and default seeds recovered; historical labels/environment require archived partition.csv for bitwise MATCHED"
+  }
+}
