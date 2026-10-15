@@ -9,7 +9,7 @@ import numpy as np
 
 from crss.config import CRSSConfig,EXPERTS,FULL_NAME,METHOD_NAME,METHOD_VERSION,RHO,TAU
 from crss.types import CRSSResult,Stage2SupervisionBundle
-from utils.io import array_hash,file_hash,object_hash
+from crss.utils.io import array_hash,file_hash,object_hash
 
 ROOT=Path(__file__).resolve().parents[1]
 RESULT_FIELDS=('indices','observed_labels','expert_predictions','intrinsic_confidence',

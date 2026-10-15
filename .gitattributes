@@ -11,6 +11,19 @@
 *.pdf binary
 
 # Defense for source archives; .gitignore and the clean main history govern pushes.
+/configs export-ignore
+/docs export-ignore
+/protocols export-ignore
+/scripts export-ignore
+/vendor export-ignore
+/crss_two_stage export-ignore
+/datasets export-ignore
+/features export-ignore
+/models export-ignore
+/training export-ignore
+/utils export-ignore
+/environment.yml export-ignore
+/assets/README.md export-ignore
 /baselines export-ignore
 /aux_baselines export-ignore
 /jumpteaching export-ignore
